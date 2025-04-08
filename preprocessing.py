@@ -10,7 +10,7 @@ def load_data():
     return df
 
 def save_data(df):
-    df.to_csv('data/processed_diabetes.csv', index=False)
+    df.to_csv('data/diabetes_data.csv', index=False)
     
 if __name__ == "__main__":
     df = load_data()
