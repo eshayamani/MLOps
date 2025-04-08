@@ -33,3 +33,15 @@ stages:
       hash: md5
       md5: adf63b6ce20f7ee74f63d5dabb325226
       size: 10829967
+  preprocess:
+    cmd: python preprocessing.py
+    deps:
+    - path: preprocessing.py
+      hash: md5
+      md5: c229d32acd968ba598a33dc3b0fe2d6d
+      size: 412
+    outs:
+    - path: data/processed_diabetes.csv
+      hash: md5
+      md5: fee81055c09eadc97db03d1f5e70928a
+      size: 95136
