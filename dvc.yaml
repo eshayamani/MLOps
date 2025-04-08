@@ -4,4 +4,4 @@ stages:
     deps:
       - preprocessing.py
     outs:
-      - data/processed_diabetes.csv
+      - data/diabetes_data.csv
