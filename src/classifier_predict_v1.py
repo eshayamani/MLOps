@@ -1,5 +1,5 @@
 from metaflow import FlowSpec, step, Flow, Parameter, JSONType
-
+ 
 class ClassifierPredictFlow(FlowSpec):
     vector = Parameter('vector', type=JSONType, required=True)
 

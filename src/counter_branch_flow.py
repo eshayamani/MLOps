@@ -18,7 +18,7 @@ class CounterBranchFlow(FlowSpec):
         self.count += 2
         self.next(self.join)
 
-    @step 
+    @step  
     def join(self, inputs):
         self.count = max(inp.count for inp in inputs)
         print("count from add_one:", inputs.add_one.count)

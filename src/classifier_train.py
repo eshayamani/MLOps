@@ -21,7 +21,7 @@ class ClassifierTrainFlow(FlowSpec):
         self.model.fit(self.train_data, self.train_labels)
         self.next(self.choose_model)
 
-    @step
+    @step 
     def train_svm(self):
         from sklearn import svm
 

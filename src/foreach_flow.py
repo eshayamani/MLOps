@@ -24,4 +24,4 @@ class ForeachFlow(FlowSpec):
         print(self.best, 'won!')
 
 if __name__ == '__main__':
-    ForeachFlow()
+    ForeachFlow() 

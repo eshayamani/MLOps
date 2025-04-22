@@ -18,3 +18,4 @@ class ClassifierPredictFlow(FlowSpec):
 
 if __name__ == '__main__':
     ClassifierPredictFlow()
+ 

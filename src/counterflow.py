@@ -16,7 +16,7 @@ class Counterflow(FlowSpec):
         self.count += 1
         self.next(self.end)
 
-    @step
+    @step 
     def end(self):
         self.count += 1
         print("Final count is", self.count)
