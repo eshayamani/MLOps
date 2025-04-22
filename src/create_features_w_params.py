@@ -9,7 +9,7 @@ from sklearn.impute import SimpleImputer
 from sklearn.feature_selection import SelectPercentile, chi2
 
 def load_data(train_name, test_name, col_names):
-    # Load data
+    # Load data 
     train_data = pd.read_csv(train_name, names=col_names)
     test_data = pd.read_csv(test_name, names=col_names)
     return train_data, test_data

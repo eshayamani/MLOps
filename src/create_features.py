@@ -22,7 +22,7 @@ test_y = test_y.map( {' >50K':1, ' >50K.':1, ' <=50K.':0, ' <=50K':0} )
 train_y = train_y.values.reshape((-1,1))
 test_y = test_y.values.reshape((-1,1))
 
-impy = SimpleImputer(strategy="most_frequent")
+impy = SimpleImputer(strategy="most_frequent") 
 impy.fit(train_y)
 train_y = impy.transform(train_y)
 test_y = impy.transform(test_y)
