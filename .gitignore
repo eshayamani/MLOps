@@ -1,1 +1,3 @@
 google-cloud-sdk/
+metaflow_gcp/.metaflow
+src/terraform.tfstate
