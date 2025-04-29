@@ -1,4 +1,11 @@
+.DS_Store
 google-cloud-sdk/
+labs/mlruns
+labs/mlflow.db
 metaflow_gcp/.metaflow
 metaflow_gcp/mlruns
+metaflow_gcp/
+mlflow_test/.DS_Store
 src/terraform.tfstate
+lab8app/__pycache__
+lab8app/random_forest_model
